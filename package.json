@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "tailwindcss": "3.4.10"
+    "tailwindcss": "^3.4.10"
   },
   "scripts": {
-    "build": "tailwindcss build -o ./static/css/styles.css",
-    "dev": "tailwindcss -i ./src/styles.css -o ./static/css/styles.css --watch"
+    "build": "tailwindcss -i ./theme/static/css/dist/input.css",
+    "dev": "tailwindcss -i ./theme/static/css/dist/styles.css --watch"
   }
 }
