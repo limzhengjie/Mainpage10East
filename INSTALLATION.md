@@ -15,21 +15,9 @@
 - git clone https://github.com/limzhengjie/Mainpage10East.git
 - After installation, cd Mainpage10East
 
-2. **Install dependencies:**
-   pip install -r requirements.txt
+2. Ensure Docker Desktop Service is running in background
+- If it is not, head to Services (for Windows)
+- Start the service for Docker Desktop Service
 
-3. **Run the application (testing):**
-- open command prompt 
-- cd to Mainpage10East
-- run python manage.py runserver
-
-4. **Run the application (testing):**
-- open command prompt 
-- cd to Mainpage10East
-- run npm run dev
-
-## Running Tests (Docker)
-- Build the Docker image
-    docker-compose build
-- Run the application using Docker
-    docker-compose up
+3. Run the application using Docker
+- docker-compose up
