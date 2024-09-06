@@ -21,3 +21,6 @@
 
 3. Run the application using Docker
 - docker-compose up
+
+4. To see webpage, head to:
+http://localhost:8000/
