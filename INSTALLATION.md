@@ -32,4 +32,4 @@
 - Build the Docker image
     docker-compose build
 - Run the application using Docker
-    docker-compose-up
+    docker-compose up
